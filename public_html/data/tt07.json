@@ -1,0 +1,55 @@
+{
+  "name": "Tiny Tapeout 7",
+  "scale": 200,
+  "layers": [
+    {
+      "name": "Microscope",
+      "URL": "tt07-microscope",
+      "width": 17940,
+      "height": 25940,
+      "tileSize": 512,
+      "imageSize": 32768
+    },
+    {
+      "name": "GDS",
+      "URL": "tt07-gds",
+      "width": 17940,
+      "height": 25940,
+      "tileSize": 512,
+      "imageSize": 32768
+    },
+    {
+      "name": "Local interconnect (LI)",
+      "URL": "tt07-li",
+      "width": 17940,
+      "height": 25940,
+      "tileSize": 512,
+      "imageSize": 32768
+    },
+    {
+      "name": "Microscope + GDS",
+      "URL": "tt07-microscope-gds",
+      "width": 17940,
+      "height": 25940,
+      "tileSize": 512,
+      "imageSize": 32768
+    },
+    {
+      "name": "Microscope + LI",
+      "URL": "tt07-microscope-li",
+      "width": 17940,
+      "height": 25940,
+      "tileSize": 512,
+      "imageSize": 32768
+    },
+    {
+      "name": "Shuttle Map",
+      "URL": "tt07-map",
+      "width": 17940,
+      "height": 25940,
+      "tileSize": 512,
+      "imageSize": 32768
+    }
+  ],
+  "links": "data/tt07-links.json"
+}
